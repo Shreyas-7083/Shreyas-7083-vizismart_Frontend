@@ -1,0 +1,25 @@
+{
+  "appId": "com.vizismart.myapp",
+  "appName": "ViziSmart",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http",
+    "url": "http://192.168.68.163:3000",
+    "cleartext": true,
+    "allowNavigation": [
+      "http://*",
+      "https://*",
+      "my.api.url"
+      
+    ]
+  },
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptionn": [
+        "badge",
+        "sound",
+        "alert"
+      ]
+    }
+  }
+}
